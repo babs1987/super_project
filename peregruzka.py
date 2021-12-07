@@ -10,3 +10,4 @@ class VinilMarket(object):
     def __add__(self, other):
         return VinilMarket(self.name + other,self.date+other,self.genre+other)
 
+##
