@@ -12,7 +12,5 @@ class VinilMarket(object):
 
 cd_one=VinilMarket('Metallica','1-10-12','HardRock')
 cd_two=VinilMarket('Offspring','2-11-21','PunkRock')
-#
-#
+
 book=cd_one.name+cd_two.name
-print(book)
