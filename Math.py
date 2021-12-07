@@ -1,27 +1,19 @@
 import math
 class Math():
     @staticmethod
-    def maximum(one, two, three, four):
-        return max(one, two, three, four)
+    def maximum(one, two, three, four):# найти максимальное значение из заданных значений
+        return max(one, two, three, four)# поиск максимума
 
     @staticmethod
-    def minimum(one, two, three,four):
-        return min(one, two, three, four)
+    def minimum(one, two, three,four):# найти минимальное значение из заданных значений
+        return min(one, two, three, four)# поиск минимума
 
     @staticmethod
-    def summa(one, two, three,four):
-        return (one + two + three + four)
+    def summa(one, two, three,four):# найти сумму из заданных значений
+        return (one + two + three + four)# сложение всех заданных значений
 
     @staticmethod
-    def minus (one, two, three, four):
-        return (one- two - three - four)
+    def minus (one, two, three, four):# найти разницу из заданных значений
+        return (one- two - three - four)# разница всех заданных значений
 
-    @staticmethod
-    def factor(num):
-        return math.factorial(num)
 
-print(Math.maximum(1,10,3,8))
-print(Math.minimum(1,2,5,6))
-print(Math.summa(1,2,3,4))
-print(Math.minus(50,2,3,4))
-print(Math.factor(2))
