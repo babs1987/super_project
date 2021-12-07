@@ -17,5 +17,5 @@ class Math():
         return (one- two - three - four)# разница всех заданных значений
 
     @staticmethod
-    def ultimaq():  # найти разницу из заданных значений
-        return 42  # разница всех заданных значений
+    def ultimaq():  # найти ответ на главный вопрос вселенной
+        return 42  # ответ
