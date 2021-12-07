@@ -10,7 +10,3 @@ class VinilMarket(object):
     def __add__(self, other):
         return VinilMarket(self.name + other,self.date+other,self.genre+other)
 
-cd_one=VinilMarket('Metallica','1-10-12','HardRock')
-cd_two=VinilMarket('Offspring','2-11-21','PunkRock')
-
-book=cd_one.name+cd_two.name
