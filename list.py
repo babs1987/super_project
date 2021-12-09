@@ -1,8 +1,11 @@
 class lst():
-    def list_create(N):
-        lt = [i for i in range(N)]
+
+    @staticmethod
+    def list_create(n):
+        lt = [i for i in range(n)]
         return lt
 
-    def list_createAB(N, a, b):
+    @staticmethod
+    def list_createAB(a, b):
         list = [i for i in range(a, b + 1)]
         return list
